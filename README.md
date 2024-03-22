@@ -78,7 +78,8 @@ The process id of parent function: 61
 #include <unistd.h>
 #include <stdlib.h>
 
-int main() {
+int main()
+{
     int pid;
     pid = fork();
     if (pid == 0)
